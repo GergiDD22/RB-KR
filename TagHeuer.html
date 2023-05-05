@@ -1,0 +1,554 @@
+<html>
+<head>
+<title>TAG Heuer</title>
+<meta charset="utf-8">
+<style>	
+
+.content	
+{	
+width:100%;	
+margin: 0 auto;	
+}	
+
+.icon img	
+{	
+background-color: #0b0083;
+float: left;	
+width: 200px;	
+height: 90px;
+padding-top: 5px;	
+}	
+
+.img	
+{	
+  overflow-clip-margin: content-box;
+  overflow: clip;	
+}	
+
+.title	
+{	
+  background-color: #00028b;
+  height: 100px;	
+}	
+
+.title h1
+{
+  font-family: arial, verdana;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 35px;
+  padding-right: 75px;
+  letter-spacing: 5px;
+  position: page;
+}
+
+.menuH a:link, a:visited
+{
+  display: inline-block;
+  background-color: #ff0000;
+  text-decoration: none;
+  color:#f1f1f1;
+  width: 120px;
+  height: 35px;
+  border-radius: 7px;
+  line-height: 100px;
+  box-shadow: 3px 3px 2px #1d2204;
+  margin: 10px;
+  text-align:center;
+  padding: 10px 10px;
+  font: bold 12pt arial, verdana;
+  margin-top: 6px;
+}
+.menuH a:hover, a:active
+{
+  background-color: white;
+  color: red;
+}
+.panelMenuH	
+{	
+text-align: center;
+justify-content:center;
+display: flex;
+position: page;	
+background-color: #2762a1;
+padding: 10px;	
+text-align: right;	
+}	
+.dropbtn {
+  width: 140px;
+  height: 35px;
+  border: 3px solid #4c5a05;
+  margin:  10px;
+  border-radius: 7px;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 3px 3px 2px #262c05; background-color: #ff0000; padding: 5px;
+  font: bold 12pt arial, verdana;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font: bold 10pt arial, verdana;
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #fc0000}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: red;
+}
+.fon
+{
+background-image:url("red-bull.jpeg");
+min-height: 100%;
+background-position: center;
+background-size: cover;
+}
+.news
+{
+font-family: Arial;
+position: page;
+text-align: center;
+color: #ffffff;
+}
+ 
+.footer
+{
+background-color: #00028b;
+text-align: center; font-size: 0.7em; font-family: Arial; padding: 10px; color: #ffffff;
+font-size: 15px;
+}
+.Smenu
+{
+  display: inline;
+}
+.scicon
+{
+  padding: 10px 10px;
+}
+.sc
+{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+div.gallery {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+div.gallery img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: 0px;
+    margin-top:-75px;
+}
+
+div.desc {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc p {
+    margin: 10px;
+    color: #000000;
+}
+div.gallery2 {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 1050px;
+  margin-top: -120px;
+}
+
+div.gallery2 img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: 0px;
+    margin-top:-75px;
+}
+
+div.desc2 {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc2 p {
+    margin: 10px;
+    color: #000000;
+}
+.textbox
+{
+  text-indent: 50px;
+border-radius: 8px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 30px 500px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  font-size: 16px;
+  margin-top: -180px;
+}
+div.textbox p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+div.gallery3 {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+div.gallery3 img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: 0px;
+    margin-top:-75px;
+}
+
+div.desc3 {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc3 p {
+    margin: 10px;
+    color: #000000;
+}
+div.gallery4 {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 850px;
+  margin-top: -160px;
+}
+
+div.gallery4 img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: 0px;
+    margin-top:-75px;
+}
+
+div.desc4 {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc4 p {
+    margin: 10px;
+    color: #000000;
+}
+.textbox2
+{
+  text-indent: 50px;
+border-radius: 8px;
+  text-align: left;
+  width: 1000px;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 30px 250px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  font-size: 16px;
+  margin-top: 30px;
+}
+div.textbox2 p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+div.gallery5 {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+div.gallery5 img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: 0px;
+    margin-top:-75px;
+}
+
+div.desc5 {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc5 p {
+    margin: 10px;
+    color: #000000;
+}
+div.gallery6 {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 300px;
+  margin-left: 1050px;
+  margin-top: -180px;
+}
+
+div.gallery6 img {
+    border:  1px solid #000000;
+    width: 100%;
+    height: 25%; 
+    margin-left: -51px;
+    margin-top:-75px;
+}
+
+div.desc6 {
+    padding: 1px;
+    background-color:white;
+    font-style: italic;
+    font-size:14px;
+    text-align: center;
+    margin-top:0px;
+    text-align: center;
+    opacity: 0.8;
+}
+div.desc6 p {
+    margin: 10px;
+    color: #000000;
+}
+.textbox3
+{
+  text-indent: 50px;
+border-radius: 8px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 30px 500px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  font-size: 16px;
+  margin-top: -230px;
+}
+div.textbox3 p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+/* За мобилни телефони: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* За таблети: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* За компютър: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+</style>
+</head>
+
+<body>
+<div class = "row">
+<div class="content">
+<div class="icon">
+<img src="Red-Bull-Logo.png" alt = "icon">
+</div>
+<div class="title">
+<h1>Red Bull Racing</h1>
+</div>
+<div class="panelMenuH">
+    <div class="dropdown">
+        <button class="dropbtn">История</button>
+        <div class="dropdown-content">
+            <a href="proizhod.html">Произход</a>
+            <a href="cosworth&ferrari.html">Период с двигатели на Cosworth и Ferrari</a>
+            <a href="Renault.html">Период с двигатели на Renault</a>
+            <a href="TagHeuer.html">Период с двигатели на Tag Heuer</a>
+            <a href="Honda.html">Период с двигатели на Honda</a>
+        </div>
+      </div>
+    <div class="menuH">
+    <a href = "piloti.html">Пилоти</a>
+    </div>
+    <div class="menuH">
+    <a href = "bolidi.html">Болиди</a>
+    </div>
+    <div class="menuH">
+    <a href = "informaciq.html">Информация</a>
+    </div>
+    <div class="menuH">
+    <a href="contacts.html">Контакти</a>
+    </div>
+    </div>
+    
+<div class = "fon">
+<div class="news">
+<h1 align="center">Период с двигатели на Tag Heuer</h1>
+<div class="gallery">
+    <img src="aston_martin.png" alt="centrala" width="40" height="40">
+    <div class="desc"><p>Aston Martin</p></div>
+  </div>
+  <div class = "textbox">
+    <p>За 2016 г. Red Bull Racing използва двигатели на Renault, брандирани като TAG Heuer. 
+        Infiniti се оттегля като основен спонсор, а на негово място става Aston Martin. </p>
+  </div>
+  <div class="gallery2">
+    <img src="tag_heuer.png" alt="centrala" width="40" height="40">
+    <div class="desc2"><p>TAG Heuer</p></div>
+  </div>
+  <div class = "textbox2">
+    <p>Началото на сезона лош, но преди Гран при Испания Даниил Квят и младия нидерландски пилот
+        от Toro Rosso, Макс Верстапен си разменят места в отборите. Макс заедно с Даниел Рикиардо
+         успяват да класират отбора на второ място при конструкторите.През следващата година отборът 
+         завършва на трето място.</p>
+  </div>
+  <div class="gallery3">
+    <img src="max-verstappen.jpg" alt="centrala" width="40" height="40">
+    <div class="desc3"><p>Макс Верстапен</p></div>
+  </div>
+  <div class="gallery4">
+    <img src="spanish-grand-prix.jpg" alt="centrala" width="40" height="40">
+    <div class="desc4"><p>Гран При на Испания, Барселона</p></div>
+  </div>
+  <div class="gallery5">
+    <img src="grand prix france.jpg" alt="centrala" width="40" height="40">
+    <div class="desc5"><p>Гран При на Франция, Льо Кастеле</p></div>
+  </div>
+  <div class = "textbox3">
+    <p>През 2018г. започва с много проблеми от една страна грешки от пилоти, 
+        а от друга страна технически проблем при болидите. Отборътът успява да
+        коригира грешките си в среда на сезона и успява до края му да се класира 
+        на трето място. Преди Гран при Франция Red Bull Racing обявява прекратяването
+        на единадесетгодишните си отношенията с Renault и подписва двугодишен 
+        договор с Honda за използването на двигатели на компанията. Това е последният
+        сезон за Даниел Рикиардо в Red Bull Racing.</p>
+  </div>
+  <div class="gallery6">
+    <img src="honda logo.jpg" alt="centrala" width="40" height="40">
+    <div class="desc6"><p>Honda</p></div>
+  </div>
+  <br>
+</div>
+</div>
+ &nbsp;
+<div class="footer">
+Последвайте Red Bull Racing в:<br><br>
+    <div class="Smenu">
+        <a href = "https://www.facebook.com/redbullracing" class = "scicon"><img src="Facebook-logo.png" class ="sc"></a>
+    </div>
+    <div class="Smenu">
+        <a href = "https://www.instagram.com/redbullracing/" class = "scicon"><img src="instagram-icon.png" class ="sc"></a>
+    </div>
+    <div class="Smenu">
+        <a href ="https://twitter.com/intent/follow?screen_name=redbullracing" class = "scicon"><img src="twitter-logo.png" class ="sc"></a>
+    </div>
+    <div class="Smenu">
+        <a href ="https://www.youtube.com/@redbullracing" class = "scicon"><img src="youtube-logo.png" class ="sc"></a>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
